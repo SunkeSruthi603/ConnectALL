@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import * as Notifications from 'expo-notifications';
-import supabase from './supabaseClient';
+import supabase from './client';
 
 const Drawer = createDrawerNavigator();
 
